@@ -16,7 +16,7 @@ public class Cliente {
 	
 	
 	public String toString(){
-		return String.format("maior : %s \n  ", ehMaiorIdade());
+		return String.format("nome : %s \n email : %s \n  telefone : %s \n cpf : %s \n  ",nome,email,telefone, ehCpfValido());
 	}
 
 	
